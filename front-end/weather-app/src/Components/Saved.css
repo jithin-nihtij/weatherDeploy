@@ -1,0 +1,45 @@
+.savedWeather{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 10px;
+   width: 80%;
+   margin: auto;
+
+}
+.savedParent{
+    background: rgb(77,45,45);
+background: linear-gradient(180deg, rgba(77,45,45,1) 0%, rgba(146,146,146,1) 0%, rgba(77,77,77,1) 24%, rgba(67,67,67,1) 43%, rgba(56,56,56,1) 56%, rgba(0,0,0,1) 95%);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+
+.fullHeight {
+    height: 100vh;
+  }
+
+.savedchild{
+    backdrop-filter: blur(10px);
+    background-color: rgba(151, 151, 151, 0.5);
+    border-radius: 50px;
+}
+
+.cityName{
+    text-transform:uppercase;
+    color: white;
+    font-size: 50px;
+}
+
+@media screen and (max-width:926px){
+    .savedWeather{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media screen and (max-width:680px){
+    .savedWeather{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

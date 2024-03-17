@@ -1,0 +1,35 @@
+.loginParent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpapercave.com/wp/wp8197687.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    flex-direction: column;
+    background-position: center;
+    
+}
+
+.loginDiv{
+    min-width:70% ;
+    max-width: 500px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    background-color: rgba(151, 151, 151, 0.5);
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+
+.loginForm{
+    width: 80%;
+    margin: auto;
+    max-width: 400px;
+    
+}
